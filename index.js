@@ -5,9 +5,9 @@ const cors = require('cors')
 console.log(process.env.USER)
 console.log(process.env.HOME)
 console.log(process.env.PORT)
-console.log(process.env.API_SECRET)
+// console.log(process.env.API_SECRET)
 
-const PORT = process.env.PORT || 5000
+const PORT = process.env.PORT || 5000 //fallback is nice
 
 const server = express()
 
